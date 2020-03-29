@@ -1,0 +1,81 @@
+body {
+  background-color: #05232D;
+  background-image: url(../img/3x/grid.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1400px auto;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+img {
+  float: left;
+}
+
+.books {
+  width: 280px;
+  height: auto;
+  object-position: ;
+}
+
+.calendar {
+  width: 280px;
+  height: auto;
+  object-position: ;
+}
+
+.graphicpen {
+  width: 200px;
+  height: auto;
+  object-position: ;
+}
+
+.graphictablet {
+  width: 304px;
+  height: auto;
+  object-position: ;
+}
+
+.macbook {
+  width: 502px;
+  height: auto;
+  object-position: -30px -30px;
+}
+
+.mug {
+  width: 130px;
+  height: auto;
+  object-position: ;
+}
+
+
+.notebook {
+  width: 340px;
+  height: auto;
+  object-position: ;
+}
+
+.penpot {
+  width: 120px;
+  height: auto;
+  object-position: ;
+}
+
+.phone {
+  width: 435px;
+  height: auto;
+  object-position: ;
+}
+
+.plant {
+  width: 134px;
+  height: auto;
+  object-position: ;
+}
+
+.rubber {
+  width: 82px;
+  height: auto;
+  object-position: ;
+}
