@@ -1,10 +1,23 @@
+/*linkin in fonts*/
+@font-face {
+  font-family: Avenir-black;
+  src: url(../fonts/Avenir-black.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Avenir-medium;
+  src: url(../fonts/Avenir-medium.otf);
+  font-weight: medium;
+}
+
 body {
   background-color: #05232D;
   background-image: url(../img/grid.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1400px auto;
-  width: auto;
+  background-size: 1500px auto;
+  width: full-width;
   height: auto;
   margin: 0 auto;
 }
@@ -40,7 +53,7 @@ img {
 .macbook {
   width: 502px;
   height: auto;
-  object-position: -30px -30px;
+  object-position: -30px -10px;
 }
 
 .mug {
@@ -83,4 +96,37 @@ img {
   width: 402px;
   height: auto;
   object-position: ;
+}
+
+
+/*place the navbar at the bottom of the page and make it stick*/
+nav {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+/*removing styling*/
+nav a {
+  color: white;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Avenir-medium;
+}
+
+/*float navbar to right*/
+nav ul {
+  float: right;
+}
+
+/*styling the links in the navigation bar*/
+nav li {
+  float: left;
+  list-style-type: none;
+  margin-right: 10px 0 0 0;
+  padding: 30px 20px;
+  text-transform: uppercase;
 }
