@@ -11,15 +11,27 @@
   font-weight: medium;
 }
 
+/****BASE STYLES****/
+
 body {
   background-color: #05232D;
   background-image: url(../img/grid.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1500px auto;
-  width: full-width;
-  height: auto;
+  background-position: ;
+  background-size: 100% 800px;
   margin: 0 auto;
+}
+
+.home, .about, .work, .blog, .contact {
+  width: 100%;
+  height: 800px;
+}
+
+.home {
+  max-width: inherit;
+  margin: 0 auto;
+  padding: none;
+  max-height: none;
 }
 
 img {
@@ -27,75 +39,109 @@ img {
 }
 
 .books {
-  width: 280px;
+  width: 421px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 845px;
+  top: 6px;
 }
 
 .calendar {
-  width: 280px;
+  width: 325px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 545px;
+  top: 48px;
 }
 
 .graphicpen {
   width: 200px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 568px;
+  bottom: 110px;
 }
 
 .graphictablet {
-  width: 304px;
+  width: 334px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 218px;
+  bottom: -20px;
 }
 
 .macbook {
-  width: 502px;
+  width: 542px;
   height: auto;
-  object-position: -30px -10px;
+  position: absolute;
+  left: -30px;
+  top: -50px;
+  z-index: -1;
+}
+
+.mouse {
+  width: 122px;
+  height: auto;
+  position: absolute;
+  top: 273px;
+  right: 299px;
 }
 
 .mug {
-  width: 130px;
+  width: 150px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 47px;
+  top: 388px;
 }
 
 .notebook {
-  width: 340px;
+  width: 360px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 566px;
+  bottom: -40px;
 }
 
 .penpot {
-  width: 120px;
+  width: 155px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  right: -4px;
+  top: 80px;
 }
 
 .phone {
-  width: 435px;
+  width: 590px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 805px;
+  bottom: 80px;
+  overflow-x: hidden;
 }
 
 .plant {
-  width: 134px;
+  width: 190px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 360px;
+  top: 17px;
 }
 
 .rubber {
-  width: 82px;
+  width: 92px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  top: 318px;
+  right: 193px;
 }
 
 .title {
-  width: 402px;
+  width: 480px;
   height: auto;
-  object-position: ;
+  position: absolute;
+  left: 448px;
+  top: 234px;
 }
 
 
