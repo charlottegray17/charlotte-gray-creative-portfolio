@@ -1,0 +1,172 @@
+/*linkin in fonts*/
+@font-face {
+  font-family: Avenir-black;
+  src: url(../fonts/Avenir-black.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Avenir-medium;
+  src: url(../fonts/Avenir-medium.otf);
+  font-weight: medium;
+}
+
+/****BASE STYLES****/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #05232D;
+  background-image: url('../img/grid.png');
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
+  width: 100%;
+}
+
+/****GRID****/
+
+img {
+  float: left;
+}
+
+.books {
+  max-width: 421px;
+  height: auto;
+  position: absolute;
+  left: 845px;
+  top: 6px;
+}
+
+.calendar {
+  width: 325px;
+  height: auto;
+  position: absolute;
+  left: 545px;
+  top: 48px;
+}
+
+.graphicpen {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  left: 568px;
+  bottom: 110px;
+}
+
+.graphictablet {
+  width: 334px;
+  height: auto;
+  position: absolute;
+  left: 218px;
+  bottom: -20px;
+}
+
+.macbook {
+  width: 542px;
+  height: auto;
+  position: absolute;
+  left: -30px;
+  top: -50px;
+  z-index: -1;
+}
+
+.mouse {
+  width: 122px;
+  height: auto;
+  position: absolute;
+  top: 273px;
+  right: 299px;
+}
+
+.mug {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 47px;
+  top: 388px;
+}
+
+.notebook {
+  width: 360px;
+  height: auto;
+  position: absolute;
+  left: 566px;
+  bottom: -40px;
+}
+
+.penpot {
+  width: 155px;
+  height: auto;
+  position: absolute;
+  right: -4px;
+  top: 80px;
+}
+
+.phone {
+  width: 590px;
+  height: auto;
+  position: absolute;
+  left: 805px;
+  bottom: 80px;
+  overflow-x: hidden;
+}
+
+.plant {
+  width: 190px;
+  height: auto;
+  position: absolute;
+  left: 360px;
+  top: 17px;
+}
+
+.rubber {
+  width: 92px;
+  height: auto;
+  position: absolute;
+  top: 318px;
+  right: 193px;
+}
+
+.title {
+  width: 480px;
+  height: auto;
+  position: absolute;
+  left: 448px;
+  top: 234px;
+}
+
+
+/*place the navbar at the bottom of the page and make it stick*/
+nav {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+/*removing styling*/
+nav a {
+  color: white;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Avenir-medium;
+}
+
+/*float navbar to right*/
+nav ul {
+  float: right;
+}
+
+/*styling the links in the navigation bar*/
+nav li {
+  float: left;
+  list-style-type: none;
+  margin-right: 10px 0 0 0;
+  padding: 30px 20px;
+  text-transform: uppercase;
+}
